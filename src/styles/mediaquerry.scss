@@ -1,0 +1,47 @@
+@import "colors";
+
+@media screen and (max-width:1000px){
+  .showdetail{
+  
+    .show{
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+  
+      div{
+        width: 100%;
+        grid-column: 1/ span 2 ;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:564px){
+
+  nav{
+    padding: 0px;
+    font-size: 10px;
+  }
+
+  .showdetail{
+  
+    .show{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img{
+        margin-top: 200px;
+        width: 80%;
+      }
+  
+      div{
+        width: 100%;
+        grid-column: 1/ span 2 ;
+        font-size: 13px;
+      }
+    }
+  }
+}

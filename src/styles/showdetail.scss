@@ -1,0 +1,73 @@
+@import "colors";
+
+.showdetail{
+  width: 90%;
+  height: 100vh;
+  margin: 50px auto;
+
+  .show{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    gap: 10px;
+    align-items: self-start;
+
+  
+    img{
+      width: 300px;
+      height: 400px;
+    }
+
+    p{
+      font-weight: 300;
+      padding: 10px;
+      // font-variant: small-caps;
+      // font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    div{
+      background-color: rgb(58, 58, 58);
+      color: #d6d6d6;
+      border-radius: 5px;
+      padding: 15px;
+        
+      display: flex;
+      flex-direction: column;
+
+      h1{
+        font-weight: 500;
+        color: #fff;
+      }
+
+      p{
+        padding: 5px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        color: #eeeeee;
+        
+        b{
+          font-weight: 550;
+          letter-spacing: 1px;
+          color: #fff;
+        }
+      }
+
+      button{
+        align-self: self-start;
+        padding: 3px 5px;
+        margin: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #d6d6d6;
+
+        &:hover{
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
